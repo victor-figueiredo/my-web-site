@@ -17,13 +17,13 @@ const Hero = () => {
       <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
         <div>
           <h1 className="text-[35px] md:text-[50px] text-[#F7F6FB] font-bold">
-            HI, I'M <span>VICTOR</span>
+            HI, I&apos;M <span>VICTOR</span>
           </h1>
           <TextEffect />
           <Link to="about" smooth={true} duration={500}>
             <p className="mt-[1.5rem] text-[18px] text-[#F7F6FB] cursor-pointer opacity-30 hover:opacity-80">
-              Sou Desenvolvedor Frontend, e me orgulho de dizer isso, já
-              desenvolvi e contribui em projetos de grande escala e
+              Sou Desenvolvedor Frontend há mais de 2 anos e meio no mercado,
+              desenvolvendo e contribuindo com projetos de grande escala e
               responsabilidade...{" "}
               <span className="text-[#5B7AC4] opacity-100 hover:underline">
                 Ler mais

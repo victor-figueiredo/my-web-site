@@ -19,8 +19,8 @@ const About = () => {
               Desenvolvedor alcançando 3 anos de experiência profissional. Quero
               ser incrível no que faço e pra isso estou sempre apto a novos
               desafios. Gosto de aprender e compartilhar conhecimentos, costumo
-              ver a vida como uma eterna escola, me permitindo se renovar e me
-              reinventar sempre que necessário.
+              ver a vida como uma eterna escola, me permitindo reinventar sempre
+              que necessário.
             </p>
           </div>
           <button
