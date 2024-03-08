@@ -1,7 +1,6 @@
 import { Bars3Icon } from "@heroicons/react/20/solid";
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-scroll";
-import { motion } from "framer-motion";
 
 interface Props {
   openNav: () => void;
@@ -36,7 +35,7 @@ const Nav = ({ openNav }: Props) => {
           <div className="nav-link">Contato</div>
         </Link>
         <div onClick={openNav}>
-          <Bars3Icon className="w-[2rem] md:hidden h-[2rem] cursor-pointer text-yellow-300" />
+          <Bars3Icon className="w-[2rem] md:hidden h-[2rem] cursor-pointer text-[#5B7AC4]" />
         </div>
       </div>
     </div>
