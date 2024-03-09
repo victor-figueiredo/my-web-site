@@ -1,6 +1,7 @@
 import { ArrowDownTrayIcon } from "@heroicons/react/20/solid";
 import Image from "next/image";
 import React from "react";
+import DownloadButton from "./DownloadButton";
 
 const About = () => {
   return (
@@ -23,13 +24,7 @@ const About = () => {
               que necessário.
             </p>
           </div>
-          <button
-            className="px-[2rem] hover:bg-transparent hover:border-[#F7F6FB] hover:border-solid hover:border-[1px] transition-all duration-200 py-[1rem] text-[18px] 
-            font-bold uppercase bg-[#152D53] border-[1px] border-solid border-[#152D53] text-[#F7F6FB] hover:text-[#F7F6FB] flex items-center space-x-2"
-          >
-            <p>Download CV</p>
-            <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem]" />
-          </button>
+          <DownloadButton />
         </div>
         <div
           data-aos="fade-left"

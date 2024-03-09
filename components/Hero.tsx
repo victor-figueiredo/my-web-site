@@ -6,6 +6,7 @@ import { ArrowDownTrayIcon, PlayCircleIcon } from "@heroicons/react/20/solid";
 import { motion } from "framer-motion";
 import { ArrowDownIcon } from "@heroicons/react/16/solid";
 import { Link } from "react-scroll";
+import DownloadButton from "./DownloadButton";
 
 const Hero = () => {
   return (
@@ -31,13 +32,7 @@ const Hero = () => {
             </p>
           </Link>
           <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
-            <button
-              className="px-[2rem] hover:bg-transparent hover:border-[#F7F6FB] hover:border-solid hover:border-[1px] transition-all duration-200 py-[1rem] text-[18px] 
-            font-bold uppercase bg-[#152D53] border-[1px] border-solid border-[#152D53] text-[#F7F6FB] flex items-center space-x-2"
-            >
-              <p>Download CV</p>
-              <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem]" />
-            </button>
+            <DownloadButton />
             {/* <button className="flex items-center space-x-2">
               <PlayCircleIcon className="w-[4rem] h-[4rem] hover:text-yellow-400 transition-all duration-200 text-[#152D53]" />
               <p className="text-[20px] font-semibold text-white">
