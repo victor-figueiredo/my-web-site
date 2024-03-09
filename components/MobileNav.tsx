@@ -27,9 +27,9 @@ const MobileNav = ({ nav, closeNav }: Props) => {
         <Link to="experiences" smooth={true} duration={500} onClick={closeNav}>
           <div className="nav-link-mobile">Experiências</div>
         </Link>
-        {/* <Link to="" smooth={true} duration={500}>
-          <div className="nav-link-mobile">Blog</div>
-        </Link> */}
+        <Link to="projects" smooth={true} duration={500}>
+          <div className="nav-link-mobile">Projetos</div>
+        </Link>
         <Link to="contact" smooth={true} duration={500} onClick={closeNav}>
           <div className="nav-link-mobile">Contact</div>
         </Link>
