@@ -9,18 +9,21 @@ const Skills = () => {
       className="pt-[4rem] md:pt-[8rem] pb-[5rem] bg-[#09101a]"
     >
       <h1 className="heading">
-        Education & <span className="text-[#5B7AC4]">Skill</span>
+        Experiências & <span className="text-[#5B7AC4]">Habilidades</span>
       </h1>
       <div className="w-[80%] mx-auto pt-[4rem] md:pt-[8rem] grid grid-cols-1 md:grid-cols-1 gap-[2rem] items-center">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[2vw]">
           <SkilsItem
             title="Desenvolvedor Frontend"
             year="09/2023 - 10/2023"
+            company="como Freelancer"
             description="Implementando novas features em um site de banco."
           />
           <SkilsItem
             title="Desenvolvedor Frontend"
             year="08/2021 - 10/2023"
+            company="na empresa Younner"
+            companyLink="https://www.younner.com"
             description="Desenvolvi sistemas para uma famosa cooperativa de
             crédito, sistema de fidelidade e aluguéis de veículo. Implementei novas features para um sistema de
             prestadores de serviços e outro sistema de corretores de
