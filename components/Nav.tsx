@@ -11,7 +11,7 @@ const Nav = ({ openNav }: Props) => {
     <div className="w-[100%] fixed z-[10000] top-0 h-[12vh] border-b-#141c27]-1 shadow-md bg-[#040404]">
       <div className="flex items-center justify-between w-[100%] px-[10vw] h-[100%]">
         <h1 className="transition-all duration-500 ease-in-out flex-[0.6] cursor-pointer text-[25px] text-[#F7F6FB] font-bold">
-          V<span className="text-[#5B7AC4]">F</span>
+          VF<span className="text-[#5B7AC4] font-bold">/&gt;</span>
         </h1>
         <Link to="home" smooth={true} duration={500}>
           <div className="nav-link">Home</div>
