@@ -28,5 +28,22 @@ module.exports = {
       }
   }
   },
-  plugins: []
+  plugins: [
+    function({ addBase }: { addBase: (styles: any) => void }) {
+      addBase({
+        '::-webkit-scrollbar': {
+          width: '10px',
+        },
+        '::-webkit-scrollbar-track': {
+          background: '#040404',
+        },
+        '::-webkit-scrollbar-thumb': {
+          background: '#5B7AC4',
+        },
+        '::-webkit-scrollbar-thumb:hover': {
+          background: '#152D53',
+        },
+      })
+    },
+  ]
 }
