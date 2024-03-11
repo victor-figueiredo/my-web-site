@@ -51,7 +51,7 @@ const Hero = () => {
             stiffness: 100,
           }}
           // data-aos="zoom-in"
-          className="w-[500px] hidden relative lg:flex items-center rounded-full h-[500px]"
+          className="w-[500px] hidden relative lg:flex items-center mx-auto rounded-full h-[500px]"
         >
           <Image
             src="/images/u1.jpg"
