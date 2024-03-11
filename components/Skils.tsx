@@ -17,7 +17,7 @@ const Skills = () => {
             title="Desenvolvedor Frontend"
             year="09/2023 - 10/2023"
             company="como Freelancer"
-            description="Implementando novas features em um site de banco."
+            description="Implementei novas features e integrações em um site de banco com NextJS e Typescript, aprendi bastante neste projeto bem organizado e estruturado."
           />
           <SkilsItem
             title="Desenvolvedor Frontend"
@@ -25,10 +25,8 @@ const Skills = () => {
             company="na empresa Younner"
             companyLink="https://www.younner.com"
             description="Desenvolvi sistemas para uma famosa cooperativa de
-            crédito, sistema de fidelidade e aluguéis de veículo. Implementei novas features para um sistema de
-            prestadores de serviços e outro sistema de corretores de
-            imóveis. Implementei novas features em um sistema de cursos de
-            exames médicos."
+            crédito, sistema de fidelidade e aluguéis de veículo, sistema de prestadores de serviços, corretores de imóveis e cursos de exames médicos.
+            Onde tive a satisfação de aprender e desenvolver diariamente diversas habilidades técnicas e comportamentais."
           />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-[2vw]">

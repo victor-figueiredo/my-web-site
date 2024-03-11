@@ -8,10 +8,10 @@ interface Props {
 
 const Nav = ({ openNav }: Props) => {
   return (
-    <div className="w-[100%] fixed z-[10000] top-0 h-[12vh] border-b-#141c27]-1 shadow-md bg-[#040404]">
-      <div className="flex items-center justify-between w-[100%] px-[10vw] h-[100%]">
-        <h1 className="transition-all duration-500 ease-in-out flex-[0.6] cursor-pointer text-[25px] text-[#F7F6FB] font-bold">
-          VF<span className="text-[#5B7AC4] font-bold">/&gt;</span>
+    <div className="border-b-#141c27]-1 fixed top-0 z-[10000] h-[12vh] w-[100%] bg-[rgba(4,4,4,0.5)] shadow-md backdrop-blur-md">
+      <div className="flex h-[100%] w-[100%] items-center justify-between px-[10vw]">
+        <h1 className="flex-[0.6] cursor-pointer text-[25px] font-bold text-[#F7F6FB] transition-all duration-500 ease-in-out">
+          VF<span className="font-bold text-[#5B7AC4]">/&gt;</span>
         </h1>
         <Link to="home" smooth={true} duration={500}>
           <div className="nav-link">Home</div>
@@ -35,7 +35,7 @@ const Nav = ({ openNav }: Props) => {
           <div className="nav-link">Contato</div>
         </Link>
         <div onClick={openNav}>
-          <Bars3Icon className="w-[2rem] md:hidden h-[2rem] cursor-pointer text-[#5B7AC4]" />
+          <Bars3Icon className="h-[2rem] w-[2rem] cursor-pointer text-[#5B7AC4] md:hidden" />
         </div>
       </div>
     </div>

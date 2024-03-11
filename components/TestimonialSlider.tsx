@@ -34,7 +34,7 @@ const TestimonialSlider = () => {
       itemClass="item"
     >
       <ClientReview
-        image="/images/c1.jpg"
+        image="/assets/images/c1.jpg"
         name="John Doe"
         role="web developer"
       />

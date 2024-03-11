@@ -5,9 +5,13 @@
 @tailwind utilities;
 
 @layer components {
+    body {
+        @apply bg-[rgb(4,4,4)]
+    }
+    
     .nav-link {
         @apply relative font-semibold text-[#F7F6FB] cursor-pointer text-[17px] w-fit md:block after:block after:content-['']
-        after:absolute after:h-[3px] after:bg-[#152D53] after:w-full after:scale-x-0 after:hover:scale-x-100
+        after:absolute after:h-[3px] after:bg-[#5B7AC4] after:w-full after:scale-x-0 after:hover:scale-x-100
         after:transition after:duration-300 after:origin-center hidden
     }
 

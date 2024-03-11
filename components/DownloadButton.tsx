@@ -17,19 +17,19 @@ const DownloadButton = () => {
   return (
     <a href="/cv/Victor-Figueiredo-Curriculo.pdf" download>
       <button
-        className="px-[2rem] hover:bg-transparent hover:border-[#F7F6FB] hover:border-solid hover:border-[1px] transition-all duration-200 py-[1rem] text-[18px] 
-font-bold uppercase bg-[#152D53] border-[1px] border-solid border-[#152D53] text-[#F7F6FB] hover:text-[#F7F6FB] flex items-center space-x-2"
+        className="flex items-center space-x-2 border-[1px] border-solid border-[#152D53] bg-gradient-to-r from-[#7299f3] via-[#5B7AC4] 
+        to-[#152D53] px-[2rem] py-[1rem] text-[18px] font-bold uppercase text-[#F7F6FB] transition-all duration-200 hover:border-[1px] hover:border-solid hover:border-[#F7F6FB] hover:bg-transparent hover:text-[#F7F6FB]"
         onClick={handleDownload}
       >
         {isDownloading ? (
           <p className="flex">
             Downloading...
-            <CheckIcon className="w-[1.6rem] h-[1.7rem] ml-[8px]" />
+            <CheckIcon className="ml-[8px] h-[1.7rem] w-[1.6rem]" />
           </p>
         ) : (
           <p className="flex">
             Download CV
-            <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] ml-[8px]" />
+            <ArrowDownTrayIcon className="ml-[8px] h-[1.7rem] w-[1.6rem]" />
           </p>
         )}
       </button>

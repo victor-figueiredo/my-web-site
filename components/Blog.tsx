@@ -16,7 +16,7 @@ const Blog = () => {
         <div>
           <div className="w-[100%] relative h-[400px]">
             <Image
-              src="/images/blog3.jpg"
+              src="/assets/images/blog3.jpg"
               alt="blog"
               layout="fill"
               className="object-cover"

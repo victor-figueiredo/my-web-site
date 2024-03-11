@@ -14,7 +14,7 @@ const Projects = () => {
         <div data-aos="fade-up">
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
             <Image
-              src="/images/p1.png"
+              src="/assets/images/p1.png"
               alt="portfolio"
               layout="fill"
               className="object-contain p-[8px] hover:border-[#fff] hover:border-[2px] hover:border-solid"
@@ -24,7 +24,7 @@ const Projects = () => {
         {/* <div data-aos="fade-up" data-aos-delay="300">
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
             <Image
-              src="/images/p1.jpg"
+              src="/assets/images/p1.jpg"
               alt="portfolio"
               layout="fill"
               className="object-contain"
@@ -34,7 +34,7 @@ const Projects = () => {
         <div data-aos="fade-up" data-aos-delay="900">
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
             <Image
-              src="/images/p1.jpg"
+              src="/assets/images/p1.jpg"
               alt="portfolio"
               layout="fill"
               className="object-contain"
@@ -44,7 +44,7 @@ const Projects = () => {
         <div data-aos="fade-up" data-aos-delay="1200">
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative w-[100%] h-[200px] md:h-[300px]">
             <Image
-              src="/images/p1.jpg"
+              src="/assets/images/p1.jpg"
               alt="portfolio"
               layout="fill"
               className="object-contain"
