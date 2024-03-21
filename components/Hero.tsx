@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 import { ArrowDownIcon } from "@heroicons/react/16/solid";
 import { Link } from "react-scroll";
 import DownloadButton from "./DownloadButton";
+import ContactButton from "./SocialsButton";
 
 const Hero = () => {
   return (
@@ -32,8 +33,12 @@ const Hero = () => {
               </span>
             </p>
           </Link>
-          <div className="mt-[2rem] flex-col items-center space-y-6 sm:flex sm:flex-row sm:space-x-6 sm:space-y-0">
+          <div className="mt-[2rem] flex-cols items-center space-y-6 sm:flex sm:flex-row sm:space-x-6 sm:space-y-0">
             <DownloadButton />
+            <div className="flex space-x-6">
+              <ContactButton socialMedia="linkedin" />
+              <ContactButton socialMedia="github" />
+            </div>
             {/* <button className="flex items-center space-x-2">
               <PlayCircleIcon className="w-[4rem] h-[4rem] hover:text-yellow-400 transition-all duration-200 text-[#152D53]" />
               <p className="text-[20px] font-semibold text-white">
