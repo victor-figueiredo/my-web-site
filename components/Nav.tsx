@@ -1,9 +1,9 @@
-import { Bars3Icon } from "@heroicons/react/20/solid";
-import React from "react";
-import { Link } from "react-scroll";
+import { Bars3Icon } from '@heroicons/react/20/solid'
+import React from 'react'
+import { Link } from 'react-scroll'
 
 interface Props {
-  openNav: () => void;
+  openNav: () => void
 }
 
 const Nav = ({ openNav }: Props) => {
@@ -14,7 +14,7 @@ const Nav = ({ openNav }: Props) => {
           VF<span className="font-bold text-[#5B7AC4]">/&gt;</span>
         </h1>
         <Link to="home" smooth={true} duration={500}>
-          <div className="nav-link">Home</div>
+          <div className="nav-link">Início</div>
         </Link>
         <Link to="about" smooth={true} duration={500}>
           <div className="nav-link">Sobre</div>
@@ -39,7 +39,7 @@ const Nav = ({ openNav }: Props) => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Nav;
+export default Nav
