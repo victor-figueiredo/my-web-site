@@ -1,0 +1,54 @@
+{
+  "Hero": {
+    "title": "HI, I'M VICTOR",
+    "subtitle": "Building large-scale and responsible projects.",
+    "cta": "Read more"
+  },
+  "TextEffect": {
+    "wordOne": "Programmer",
+    "wordTwo": "Developer"
+  },
+  "Nav": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "experiences": "Experiences",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "About": {
+    "about-me": "About me",
+    "aiming": "Aiming a ",
+    "purpose": "purpose",
+    "resume": "I have 3 years of professional experience. I want to be amazing at what I do and for that I am always ready for new challenges. I like to learn and share knowledge, I usually see life as an eternal school, allowing me to reinvent myself whenever necessary."
+  },
+  "Projects": {
+    "title": "jects"
+  },
+  "Services": {
+    "title1": "My ",
+    "title2": "services",
+    "frontend": "My first encounter with development came when I was 14 years old, however, at that time, due to limited resources and access, I couldn't delve deeper into it. I picked up my studies again in 2020 and finally started my career.",
+    "backend": "The world of business rules and data storage has always fascinated me. Currently, I work as a back-end developer with expertise in NodeJS, ExpressJS, MySQL, MongoDB, Sequelize, and MVC.",
+    "fullstack": "It is an immense satisfaction to be able to work as a full stack, and feel like an increasingly complete professional. I started my career in front-end development, where I accumulated almost 3 years of experience, before venturing into the world of back-end development."
+  },
+  "Skills": {
+    "title1": "Experiences &",
+    "title2": "Skills",
+    "company1": "as Freelancer",
+    "duration1": "2023/09 - 2023/10",
+    "occupation1": "Frontend Developer",
+    "description1": "I successfully implemented new features and integrations on a bank website utilizing NextJS and Typescript. This well-organized and structured project provided me with valuable learning opportunities.",
+    "company2": "at Younner",
+    "occupation2": "Frontend Developer",
+    "duration2": "2021/08 - 2023/10",
+    "description2": "I developed projects and solutions for various clients, such as credit unions, course platforms, service providers, real estate agents, loyalty systems, car rentals, live systems, chat with socket.io, maps, and others, where I could have the satisfaction of overcoming challenges and evolving as a professional and also as a person."
+  },
+  "Footer": {
+    "rights": "Developed by "
+  },
+  "DownloadBtn": {
+    "download-btn": "Download CV",
+    "downloading": "Downloading..."
+  }
+}

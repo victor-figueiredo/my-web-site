@@ -1,6 +1,7 @@
 import React from 'react'
 import SkilsItem from './SkilsItem'
 import SkilsLanguage from './SkilLanguage'
+import { useTranslations } from 'next-intl'
 
 const mySkills = [
   {
@@ -70,28 +71,29 @@ const mySkills = [
 ]
 
 const Skills = () => {
+  const t = useTranslations('Skills')
   return (
     <div
       id="experiences"
       className="bg-[#09101a] pb-[5rem] pt-[4rem] md:pt-[8rem]"
     >
       <h1 className="heading">
-        Experiências & <span className="text-[#5B7AC4]">Habilidades</span>
+        {t('title1')} <span className="text-[#5B7AC4]">{t('title2')}</span>
       </h1>
       <div className="mx-auto grid w-[80%] grid-cols-1 items-center gap-[2rem] pt-[4rem] md:grid-cols-1 md:pt-[8rem]">
         <div className="grid grid-cols-1 gap-[2vw] md:grid-cols-2">
           <SkilsItem
-            title="Desenvolvedor Frontend"
-            year="09/2023 - 10/2023"
-            company="como Freelancer"
-            description="Implementei novas features e integrações em um site de banco com NextJS e Typescript, aprendi bastante neste projeto bem organizado e estruturado."
+            title={t('occupation1')}
+            year={t('duration1')}
+            company={t('company1')}
+            description={t('description1')}
           />
           <SkilsItem
-            title="Desenvolvedor Frontend"
-            year="08/2021 - 10/2023"
-            company="na empresa Younner"
+            title={t('occupation2')}
+            year={t('duration2')}
+            company={t('company2')}
             companyLink="https://www.younner.com"
-            description="Desenvolvi projetos e soluções para uma grande empresa de cooperativa de crédito, cursos, site para prestadores de serviços, corretores de imóveis, sistema de fidelidade, locação de veículos, sistema com live, chat com websockets, mapas, e entre outros, onde pude ter a satisfação de superar desafios e evoluir como profissional e também como pessoa."
+            description={t('description2')}
           />
         </div>
         <div className="flex flex-wrap justify-center gap-[2vw]">

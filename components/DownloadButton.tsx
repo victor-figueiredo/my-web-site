@@ -1,7 +1,10 @@
 import { ArrowDownTrayIcon, CheckIcon } from '@heroicons/react/20/solid'
+import { useTranslations } from 'next-intl'
 import React, { useState } from 'react'
 
 const DownloadButton = () => {
+  const t = useTranslations('DownloadBtn')
+
   const [isDownloading, setIsDownloading] = useState(false)
 
   const handleDownload = () => {
@@ -22,12 +25,12 @@ const DownloadButton = () => {
       >
         {isDownloading ? (
           <p className="flex">
-            Baixando...
+            {t('downloading')}
             <CheckIcon className="ml-[8px] h-[1.7rem] w-[1.6rem]" />
           </p>
         ) : (
           <p className="flex">
-            Baixar currículo
+            {t('download-btn')}
             <ArrowDownTrayIcon className="ml-[8px] h-[1.7rem] w-[1.6rem]" />
           </p>
         )}

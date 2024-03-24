@@ -1,35 +1,38 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
- 
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
+    './pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './components/**/*.{js,ts,jsx,tsx,mdx}',
+
     // Or if using `src` directory:
-    "./src/**/*.{js,ts,jsx,tsx,mdx}",
+    './src/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
       fontFamily: {
-        primary: ["Poppins"]
-      }
+        primary: ['Poppins'],
+      },
+      boxShadow: {
+        'inner-bottom': 'inset 0 -2px 0px 0px #5B7AC4',
+      },
     },
     animation: {
-      shine: "shine 2s linear infinite"
+      shine: 'shine 2s linear infinite',
     },
     keyframes: {
       shine: {
         from: {
-          backgroundPosition: "0 0"
+          backgroundPosition: '0 0',
         },
         to: {
-          backgroundPosition: "-200% 0"
-        }
-      }
-  }
+          backgroundPosition: '-200% 0',
+        },
+      },
+    },
   },
   plugins: [
-    function({ addBase }: { addBase: (styles: any) => void }) {
+    function ({ addBase }: { addBase: (styles: any) => void }) {
       addBase({
         '::-webkit-scrollbar': {
           width: '10px',
@@ -45,5 +48,5 @@ module.exports = {
         },
       })
     },
-  ]
+  ],
 }

@@ -1,0 +1,58 @@
+{
+  "Hero": {
+    "title": "OLÁ, EU SOU VICTOR",
+    "subtitle": "Construindo projetos de grande escala e responsabilidade.",
+    "cta": "Saiba mais"
+  },
+  "TextEffect": {
+    "wordOne": "Programador",
+    "wordTwo": "Desenvolvedor"
+  },
+  "Nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "services": "Serviços",
+    "experiences": "Experiências",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "About": {
+    "about-me": "Sobre mim",
+    "aiming": "Visando um ",
+    "purpose": "propósito",
+    "resume": "Possuo 3 anos de experiência profissional. Quero ser incrível no que faço e pra isso estou sempre apto a novos desafios. Gosto de aprender e compartilhar conhecimentos, costumo ver a vida como uma eterna escola, me permitindo reinventar sempre que necessário."
+  },
+  "Projects": {
+    "title": "jetos"
+  },
+  "Services": {
+    "title1": "Meus ",
+    "title2": "serviços",
+    "frontend": "Meu primeiro encontro com o desenvolvimento aconteceu aos 14 anos, porém, naquela época, devido à limitação de recursos e acesso, não pude me aprofundar no assunto. Retomei meus estudos em 2020 e finalmente iniciei minha carreira.",
+    "backend": "O mundo das regras de negócios e do armazenamento de dados sempre me fascinou. Atualmente atuo como desenvolvedor back-end com expertise em NodeJS, ExpressJS, MySQL, MongoDB, Sequelize e MVC.",
+    "fullstack": "É uma satisfação imensa poder trabalhar como full stack, e me sentir um profissional cada vez mais completo. Iniciei minha carreira no desenvolvimento front-end, onde acumulei quase 3 anos de experiência, antes de me aventurar no mundo do desenvolvimento back-end."
+  },
+  "Skills": {
+    "title1": "Experiências &",
+    "title2": "Habilidades",
+    "company1": "como Freelancer",
+    "duration1": "09/2023 - 10/2023",
+    "occupation1": "Desenvolvedor Frontend",
+    "description1": "Implementei com sucesso novos recursos e integrações em um site de banco utilizando NextJS e Typescript. Este projeto bem organizado e estruturado me proporcionou valiosas oportunidades de aprendizagem.",
+    "company2": "na Younner",
+    "duration2": "08/2021 - 10/2023",
+    "occupation2": "Desenvolvedor Frontend",
+    "description2": "Desenvolvi projetos e soluções para diversos clientes, como empresa de cooperativa de crédito, plataforma de cursos, prestadores de serviços, corretores de imóveis, sistema de fidelidade, locação de veículos, sistema com live, chat com socket.io, mapas, e entre outros, onde pude ter a satisfação de superar desafios e evoluir como profissional e também como pessoa."
+  },
+  "Footer": {
+    "contact": "Contato",
+    "email": "Envie seu e-mail",
+    "phone": "Telefone",
+    "address": "Minha localização",
+    "rights": "Desenvolvido por "
+  },
+  "DownloadBtn": {
+    "download-btn": "Baixar currículo",
+    "downloading": "Baixando..."
+  }
+}

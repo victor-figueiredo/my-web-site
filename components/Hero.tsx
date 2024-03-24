@@ -8,18 +8,20 @@ import { ArrowDownIcon } from '@heroicons/react/16/solid'
 import { Link } from 'react-scroll'
 import DownloadButton from './DownloadButton'
 import ContactButton from './SocialsButton'
+import { useTranslations } from 'next-intl'
 
 const Hero = () => {
+  const t = useTranslations('Hero')
   return (
     <div
       id="home"
       className="mt-[10vh] h-[100vh] bg-[#040404] bg-cover bg-center"
     >
-      <Particle />
+      {/* <Particle /> */}
       <div className="mx-auto grid h-[100%] w-[80%] grid-cols-1 items-center gap-[3rem] lg:grid-cols-2">
         <div>
           <h1 className="text-[35px] font-bold text-[#F7F6FB] md:text-[50px]">
-            OLÁ, EU SOU <span>VICTOR</span>
+            {t('title')}
           </h1>
           <TextEffect />
           <Link to="about" smooth={true} duration={500}>
@@ -27,9 +29,9 @@ const Hero = () => {
               data-aos="zoom-out-right"
               className="mt-[1.5rem] cursor-pointer text-[18px] text-[#F7F6FB] opacity-30 hover:opacity-80"
             >
-              Construindo projetos de grande escala e responsabilidade. <br />
+              {t('subtitle')} <br />
               <span className="text-[#5B7AC4] opacity-100 hover:underline">
-                Ler mais
+                {t('cta')}
               </span>
             </p>
           </Link>
