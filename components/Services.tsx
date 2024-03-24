@@ -22,9 +22,7 @@ const Services = () => {
               Front-End
             </h1>
             <p className="text-[15px] text-[#d3d2d2] font-normal">
-              É a função que eu mais domino hoje, atuando profissionalmente há
-              quase 3 anos, já trabalhei com Angular mas domino mais o ReactJS e
-              NextJS, frameworks do JavaScript.
+              Foi o meu primeiro contato com o desenvolvimento, aos 14 anos, porém não tive a oportunidade de me aprofundar, retomei meus estudos em 2020 iniciando de vez a minha carreira.
             </p>
           </div>
         </div>
@@ -35,9 +33,8 @@ const Services = () => {
               Back-End
             </h1>
             <p className="text-[15px] text-[#d3d2d2] font-normal">
-              Conhecimentos em NodeJS, Express, MySQL, estou me desenvolvendo a
-              cada dia, tenho muita curiosidade sobre este mundo de regras de
-              negócio e armazenamento de dados.
+              Sempre tive curiosidade sobre este mundo de regras de
+              negócios e armazenamento de dados, hoje atuo como back-end, com NodeJS, ExpressJS, MySQL, MongoDB, Sequelize, MVC.
             </p>
           </div>
         </div>
@@ -48,9 +45,7 @@ const Services = () => {
               Full-Stack
             </h1>
             <p className="text-[15px] text-[#d3d2d2] font-normal">
-              Apesar de ter mais propriedade atuando como front-end e querer me
-              desenvolver mais e mais, eu estudo e me preparo para atuar como um
-              desenvolvedor full-stack.
+              É uma imensa satisfação poder atuar como fullstack, inicie minha carreira como front-end, quase 3 anos de experiência e em seguida entrei pro mundo do back-end.
             </p>
           </div>
         </div>

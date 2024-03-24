@@ -1,11 +1,11 @@
-import React from "react";
+import React from 'react'
 
 interface Props {
-  title: string;
-  year: string;
-  company: string;
-  description: string;
-  companyLink?: string;
+  title: string
+  year: string
+  company: string
+  description: string
+  companyLink?: string
 }
 
 const SkilsItem = ({
@@ -15,32 +15,32 @@ const SkilsItem = ({
   companyLink,
   description,
 }: Props) => {
-  const hasLink = !!companyLink;
+  const hasLink = !!companyLink
 
   return (
-    <div className="mb-[4rem] md:mb-[8rem] max-w-40%">
-      <span className="px-[2rem] text-[#5B7AC4] py-[0.9rem] font-bold text-[18px] border-[2px] border-[#5B7AC4]">
+    <div className="max-w-40% mb-[4rem] md:mb-[8rem]">
+      <span className="select-none border-[2px] border-[#5B7AC4] px-[2rem] py-[0.9rem] text-[18px] font-bold text-[#5B7AC4]">
         {year}
       </span>
-      <h1 className="mt-[2rem] uppercase font-semibold text-[20px] sm:text-[25px] md:text-[30px] text-white">
+      <h1 className="mt-[2rem] select-none text-[20px] font-semibold uppercase text-white sm:text-[25px] md:text-[30px]">
         {title}
       </h1>
       <h3
         onClick={() => {
-          if (hasLink) window.open(companyLink);
-          return;
+          if (hasLink) window.open(companyLink)
+          return
         }}
         className={`${
           hasLink && `cursor-pointer hover:underline`
-        } mb-[1rem] font-semibold text-[10px] sm:text-[15px] md:text-[20px] text-white`}
+        } mb-[1rem] text-[10px] font-semibold text-white sm:text-[15px] md:text-[20px]`}
       >
         {company}
       </h3>
-      <p className="text-[#aaaaaa] font-normal w-[80%] text-[17px] opacity-80">
+      <p className="w-[80%] text-[17px] font-normal text-[#aaaaaa] opacity-80">
         {description}
       </p>
     </div>
-  );
-};
+  )
+}
 
-export default SkilsItem;
+export default SkilsItem

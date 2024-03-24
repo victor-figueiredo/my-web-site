@@ -1,18 +1,85 @@
-import React from "react";
-import SkilsItem from "./SkilsItem";
-import SkilsLanguage from "./SkilLanguage";
+import React from 'react'
+import SkilsItem from './SkilsItem'
+import SkilsLanguage from './SkilLanguage'
+
+const mySkills = [
+  {
+    name: 'HTML5',
+    imageUrl: '/assets/images/skills/html.png',
+  },
+  {
+    name: 'CSS',
+    imageUrl: '/assets/images/skills/css.png',
+  },
+  {
+    name: 'JavaScript',
+    imageUrl: '/assets/images/skills/js.png',
+  },
+  {
+    name: 'Typescript',
+    imageUrl: '/assets/images/skills/ts.png',
+  },
+  {
+    name: 'Angular',
+    imageUrl: '/assets/images/skills/angular.png',
+  },
+  {
+    name: 'ReactJS',
+    imageUrl: '/assets/images/skills/reactjs.png',
+  },
+  {
+    name: 'NextJS',
+    imageUrl: '/assets/images/skills/nextjs.png',
+  },
+  {
+    name: 'Redux',
+    imageUrl: '/assets/images/skills/redux.png',
+  },
+  {
+    name: 'Styled-Components',
+    imageUrl: '/assets/images/skills/styled-components.png',
+  },
+  {
+    name: 'Tailwind CSS',
+    imageUrl: '/assets/images/skills/tailwind.png',
+  },
+  {
+    name: 'NodeJS',
+    imageUrl: '/assets/images/skills/node.png',
+  },
+  {
+    name: 'ExpressJS',
+    imageUrl: '/assets/images/skills/Expressjs.png',
+  },
+  {
+    name: 'MongoDB',
+    imageUrl: '/assets/images/skills/mongodb.png',
+  },
+  {
+    name: 'MySQL',
+    imageUrl: '/assets/images/skills/mysql.png',
+  },
+  {
+    name: 'Sequelize',
+    imageUrl: '/assets/images/skills/sequelize.png',
+  },
+  {
+    name: 'Socket.io',
+    imageUrl: '/assets/images/skills/socketio.png',
+  },
+]
 
 const Skills = () => {
   return (
     <div
       id="experiences"
-      className="pt-[4rem] md:pt-[8rem] pb-[5rem] bg-[#09101a]"
+      className="bg-[#09101a] pb-[5rem] pt-[4rem] md:pt-[8rem]"
     >
       <h1 className="heading">
         Experiências & <span className="text-[#5B7AC4]">Habilidades</span>
       </h1>
-      <div className="w-[80%] mx-auto pt-[4rem] md:pt-[8rem] grid grid-cols-1 md:grid-cols-1 gap-[2rem] items-center">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-[2vw]">
+      <div className="mx-auto grid w-[80%] grid-cols-1 items-center gap-[2rem] pt-[4rem] md:grid-cols-1 md:pt-[8rem]">
+        <div className="grid grid-cols-1 gap-[2vw] md:grid-cols-2">
           <SkilsItem
             title="Desenvolvedor Frontend"
             year="09/2023 - 10/2023"
@@ -24,33 +91,17 @@ const Skills = () => {
             year="08/2021 - 10/2023"
             company="na empresa Younner"
             companyLink="https://www.younner.com"
-            description="Desenvolvi sistemas para uma famosa cooperativa de
-            crédito, sistema de fidelidade e aluguéis de veículo, sistema de prestadores de serviços, corretores de imóveis e cursos de exames médicos.
-            Onde tive a satisfação de aprender e desenvolver diariamente diversas habilidades técnicas e comportamentais."
+            description="Desenvolvi projetos e soluções para uma grande empresa de cooperativa de crédito, cursos, site para prestadores de serviços, corretores de imóveis, sistema de fidelidade, locação de veículos, sistema com live, chat com websockets, mapas, e entre outros, onde pude ter a satisfação de superar desafios e evoluir como profissional e também como pessoa."
           />
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-[2vw]">
-          <SkilsLanguage
-            skill1="HTML5"
-            skill2="css3"
-            skill3="Javascript"
-            level1="w-[80%]"
-            level2="w-[88%]"
-            level3="w-[80%]"
-          />
-
-          <SkilsLanguage
-            skill1="AngularJS"
-            skill2="ReactJS"
-            skill3="NextJS"
-            level1="w-[50%]"
-            level2="w-[88%]"
-            level3="w-[80%]"
-          />
+        <div className="flex flex-wrap justify-center gap-[2vw]">
+          {mySkills.map((skill, index) => (
+            <SkilsLanguage key={index} skill={skill} />
+          ))}
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default Skills;
+export default Skills

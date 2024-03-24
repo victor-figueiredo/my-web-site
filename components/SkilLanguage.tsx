@@ -1,50 +1,32 @@
-import React from "react";
+import Image from 'next/image'
+import React from 'react'
 
-interface Props {
-  skill1: string;
-  skill2: string;
-  skill3: string;
-  level1: string;
-  level2: string;
-  level3: string;
+type Skill = {
+  name: string
+  imageUrl: string
 }
 
-const SkilsLanguage = ({
-  skill1,
-  skill2,
-  skill3,
-  level1,
-  level2,
-  level3,
-}: Props) => {
+interface Props {
+  skill: Skill
+}
+
+const SkilsLanguage = ({ skill }: Props) => {
   return (
     <div>
-      <div className="relative mb-[3rem]">
-        <h1 className="p-5 w-[100%] uppercase bg-gray-800 rounded-sm text-white text-[20px] font-bold">
-          {skill1}
-        </h1>
-        <span
-          className={`${level1} bottom-0 h-[6px] absolute bg-[#5B7AC4]`}
-        ></span>
-      </div>
-      <div className="relative mb-[3rem]">
-        <h1 className="p-5 w-[100%] uppercase bg-gray-800 rounded-sm text-white text-[20px] font-bold">
-          {skill2}
-        </h1>
-        <span
-          className={`${level2} bottom-0 h-[6px] absolute bg-[#5B7AC4]`}
-        ></span>
-      </div>
-      <div className="relative mb-[3rem]">
-        <h1 className="p-5 w-[100%] uppercase bg-gray-800 rounded-sm text-white text-[20px] font-bold">
-          {skill3}
-        </h1>
-        <span
-          className={`${level3} bottom-0 h-[6px] absolute bg-[#5B7AC4]`}
-        ></span>
+      <div className="relative mb-[3rem] h-[130px] w-[100px] animate-shine cursor-pointer items-center bg-[#F7F6FB] bg-opacity-5 opacity-30 grayscale filter transition-colors duration-200 hover:bg-[linear-gradient(110deg,#09101a,45%,#1e2631,55%,#09101a)] hover:bg-[length:200%_100%] hover:opacity-100 hover:grayscale-0">
+        <Image
+          className="mx-0-auto px-2 py-3"
+          src={skill.imageUrl}
+          alt={skill.name}
+          width={100}
+          height={80}
+        />
+        <p className="absolute bottom-0 w-[100%] select-none text-center text-[10px] font-bold uppercase text-white">
+          {skill.name}
+        </p>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default SkilsLanguage;
+export default SkilsLanguage

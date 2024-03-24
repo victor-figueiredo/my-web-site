@@ -1,18 +1,17 @@
-import { ArrowDownTrayIcon, CheckIcon } from "@heroicons/react/20/solid";
-import React, { useState } from "react";
+import { ArrowDownTrayIcon, CheckIcon } from '@heroicons/react/20/solid'
+import React, { useState } from 'react'
 
 const DownloadButton = () => {
-  const [isDownloading, setIsDownloading] = useState(false);
+  const [isDownloading, setIsDownloading] = useState(false)
 
   const handleDownload = () => {
-    setIsDownloading(true);
+    setIsDownloading(true)
     setTimeout(() => {
-      // setIsDownloading('Please wait');
       setTimeout(() => {
-        setIsDownloading(false);
-      }, 2000); // Volta para o estado inicial após 2 segundos
-    }, 2000); // Altera para "Please wait" após 2 segundos
-  };
+        setIsDownloading(false)
+      }, 2000)
+    }, 2000)
+  }
 
   return (
     <a href="/cv/Victor-Figueiredo-Curriculo.pdf" download>
@@ -23,18 +22,18 @@ const DownloadButton = () => {
       >
         {isDownloading ? (
           <p className="flex">
-            Downloading...
+            Baixando...
             <CheckIcon className="ml-[8px] h-[1.7rem] w-[1.6rem]" />
           </p>
         ) : (
           <p className="flex">
-            Download CV
+            Baixar currículo
             <ArrowDownTrayIcon className="ml-[8px] h-[1.7rem] w-[1.6rem]" />
           </p>
         )}
       </button>
     </a>
-  );
-};
+  )
+}
 
-export default DownloadButton;
+export default DownloadButton
