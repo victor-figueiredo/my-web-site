@@ -41,7 +41,7 @@ const Projects = () => {
               {showingTitle === project.id && (
                 <p
                   data-aos="fade-up"
-                  className="w-[100%] text-center text-white"
+                  className="hidden w-[100%] text-center text-white md:block"
                 >
                   {project.name}
                 </p>
