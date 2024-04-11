@@ -1,25 +1,23 @@
 import { useTranslations } from 'next-intl'
 import Image from 'next/image'
 import React from 'react'
+import ProjectDialog from './Dialog'
+import { IProjectProps } from '@/types'
+import MyProjects from '@/data/projects.json'
 
 const Projects = () => {
   const t = useTranslations('Projects')
   const [showingTitle, setShowingTitle] = React.useState(0)
-  const myProjects = [
-    {
-      id: 1,
-      name: 'Meu primeiro portfólio',
-      image: '/assets/images/p1.png',
-    },
-    {
-      id: 2,
-      name: 'Chat com IA',
-      image: '/assets/images/p2.png',
-    },
-  ]
+  const [projectSelected, setProjectSelected] =
+    React.useState<IProjectProps | null>(null)
+  //   null
+  // )
 
   const showTitle = (projectId: number) => setShowingTitle(projectId)
   const hideTitle = () => setShowingTitle(0)
+  const showProject = (project: IProjectProps | null) =>
+    setProjectSelected(project)
+  const onClose = () => setProjectSelected(null)
 
   return (
     <div
@@ -30,10 +28,11 @@ const Projects = () => {
         Pro<span className="text-[#5B7AC4]">{t('title')}</span>
       </h1>
       <div className="mx-auto grid w-[80%] grid-cols-1 gap-[2rem] pt-[2rem] md:grid-cols-2 lg:grid-cols-3">
-        {myProjects.map((project) => (
+        {MyProjects.map((project) => (
           <div
             data-aos="fade-up"
             key={project.id}
+            onClick={() => showProject(project)}
             onMouseEnter={() => showTitle(project.id)}
             onMouseLeave={hideTitle}
           >
@@ -56,6 +55,9 @@ const Projects = () => {
           </div>
         ))}
       </div>
+      {projectSelected && (
+        <ProjectDialog data={projectSelected} onClose={onClose} />
+      )}
     </div>
   )
 }

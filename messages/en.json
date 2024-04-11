@@ -23,7 +23,10 @@
     "resume": "I have 3 years of professional experience. I want to be amazing at what I do and for that I am always ready for new challenges. I like to learn and share knowledge, I usually see life as an eternal school, allowing me to reinvent myself whenever necessary."
   },
   "Projects": {
-    "title": "jects"
+    "title": "jects",
+    "Dialog": {
+      "goBack": "Back"
+    }
   },
   "Services": {
     "title1": "My ",

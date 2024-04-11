@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Portfólio V1",
+    "image": "/assets/images/p1.png",
+    "images": ["/assets/images/p1pc.png"],
+    "links": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/victor-figueiredo/my-web-site"
+      }
+    ],
+    "description": "Desenvolvido em pouco tempo com o intuito de colocar rapidamente uma versão bonita e eficiente do meu primeiro portifólio no ar. Neste site eu disponibilizo informações curriculares como experiências profissionais, habilidades que domino, alguns projetos pessoais, download acessível do meu currículo e acesso aos meus contatos.",
+    "tools": ["ReactJS", "NextJS", "Tailwind CSS"]
+  },
+  {
+    "id": 2,
+    "name": "CoreNotes - Bloco de notas online",
+    "image": "/assets/images/p4.png",
+    "images": ["/assets/images/p3pc.png", "/assets/images/p4pc.png"],
+    "links": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/victor-figueiredo/corenotes-web-challange-react"
+      }
+    ],
+    "description": "Plataforma de gerenciamento de notas, conta com autenticação de usuário, login e cadastro, ao entrar é possível gerenciar suas anotações, criar, editar, excluir e uma anotação, favoritar uma anotação para vê-la na lista destacada e mudar a cor da nota. É possível filtrar as anotações por favoritadas e por cores.",
+    "tools": ["ReactJS", "Typescript", "Tailwind CSS"]
+  },
+  {
+    "id": 3,
+    "name": "API rest com PHP - CoreNotes",
+    "image": "/assets/images/api.png",
+    "images": ["/assets/images/p3pc.png", "/assets/images/p4pc.png"],
+    "links": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/victor-figueiredo/corenotes-api-challange-php"
+      }
+    ],
+    "description": "Api desenvolvida em PHP, com o framework Laravel 8, conta com sistema de autenticação do usuário, gerenciamento de anotações, podendo criar, editar, excluir, favoritar, mudar a cor da nota, utilizando banco de dados relacional para armazenamento de dados.",
+    "tools": ["PHP", "Laravel 8", "Sanctum", "Eloquent ORM", "SQLite"]
+  },
+  {
+    "id": 4,
+    "name": "Chat com IA",
+    "image": "/assets/images/p2.png",
+    "images": ["/assets/images/p2pc.png"],
+    "links": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/victor-figueiredo/ai-chat"
+      }
+    ],
+    "description": "Eu tava curioso para integrar um chat com IA, apesar de já ter visto que é bem simples, e fiz aqui rapidinho com Nextjs, usando a biblioteca Vercel AI SDK. Bem legal a biblioteca, ela ajuda os devs a criar interfaces de usuário de streaming conversacionais, suportando diversas tecnologias e integração com modelos de IA, aplicativos de IA responsivos e rápidos, com funcionalidades prontas para uso.",
+    "tools": ["NextJS", "OpenAI API", "Tailwind CSS"]
+  },
+  {
+    "id": 5,
+    "name": "Back-end NodeJS - Todo",
+    "image": "/assets/images/p5.png",
+    "images": ["/assets/images/p5pc.png"],
+    "links": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/victor-figueiredo/node-todo-mvc"
+      }
+    ],
+    "description": "Desenvolvido durante o curso de NodeJS, contando com o framework ExpressJS, com a ORM Sequelize, para as views utilizei Handlebars e o banco de dados MySQL.",
+    "tools": ["NodeJS", "Handlebars", "Sequelize"]
+  },
+  {
+    "id": 6,
+    "name": "Back-end PHP - Notes",
+    "image": "/assets/images/p6.png",
+    "images": ["/assets/images/p6pc.png"],
+    "links": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/victor-figueiredo/notes-php"
+      }
+    ],
+    "description": "Desenvolvido durante o curso de PHP, contando com o framework Laravel 8, com a ORM Eloquent, para as views utilizei Blade e o banco de dados MySQL.",
+    "tools": ["PHP", "Laravel 8", "Blade", "Eloquent ORM", "MySQL"]
+  }
+]

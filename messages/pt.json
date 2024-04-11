@@ -23,7 +23,10 @@
     "resume": "Possuo 3 anos de experiência profissional. Quero ser incrível no que faço e pra isso estou sempre apto a novos desafios. Gosto de aprender e compartilhar conhecimentos, costumo ver a vida como uma eterna escola, me permitindo reinventar sempre que necessário."
   },
   "Projects": {
-    "title": "jetos"
+    "title": "jetos",
+    "Dialog": {
+      "goBack": "Voltar"
+    }
   },
   "Services": {
     "title1": "Meus ",

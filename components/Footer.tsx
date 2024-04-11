@@ -1,8 +1,3 @@
-import {
-  DevicePhoneMobileIcon,
-  EnvelopeIcon,
-  MapIcon,
-} from '@heroicons/react/20/solid'
 import { useTranslations } from 'next-intl'
 import React from 'react'
 import ContactButton from './SocialsButton'
