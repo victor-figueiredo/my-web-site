@@ -3,7 +3,7 @@ import Image from 'next/image'
 import React from 'react'
 import ProjectSlide from './ProjectSlide'
 import { LinkIcon } from '@heroicons/react/24/outline'
-import { Links } from './DialogLinks'
+import { Links } from './ProjectLinks'
 import { Tool } from './ProjectTools'
 import { useTranslations } from 'next-intl'
 
