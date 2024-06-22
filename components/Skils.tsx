@@ -96,12 +96,13 @@ const Skills = () => {
       </h1>
       <div className="mx-auto grid w-[80%] grid-cols-1 items-center gap-[2rem] pt-[4rem] md:grid-cols-1 md:pt-[8rem]">
         <div className="grid grid-cols-1 gap-[2vw] md:grid-cols-2">
-          <SkilsItem
-            title={t('occupation1')}
-            year={t('duration1')}
-            company={t('company1')}
-            description={t('description1')}
-          />
+            <SkilsItem
+              title={t('occupation3')}
+              year={t('duration3')}
+              company={t('company3')}
+              companyLink="https://www.mestresdaweb.com.br/"
+              description={t('description2')}
+            />
           <SkilsItem
             title={t('occupation2')}
             year={t('duration2')}
@@ -110,11 +111,10 @@ const Skills = () => {
             description={t('description2')}
           />
           <SkilsItem
-            title={t('occupation3')}
-            year={t('duration3')}
-            company={t('company3')}
-            companyLink="https://www.mestresdaweb.com.br/"
-            description={t('description2')}
+            title={t('occupation1')}
+            year={t('duration1')}
+            company={t('company1')}
+            description={t('description1')}
           />
         </div>
         <div className="flex flex-wrap justify-center gap-[2vw]">
