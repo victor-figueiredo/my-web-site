@@ -52,6 +52,20 @@ const mySkills = [
     name: 'ExpressJS',
     imageUrl: '/assets/images/skills/Expressjs.png',
   },
+  //
+  {
+    name: 'PHP',
+    imageUrl: '/assets/images/skills/PHP-logo.png',
+  },
+  {
+    name: 'Laravel',
+    imageUrl: '/assets/images/skills/laravel-logo.png',
+  },
+  {
+    name: 'Blade',
+    imageUrl: '/assets/images/skills/blade-logo.png',
+  },
+  //
   {
     name: 'MongoDB',
     imageUrl: '/assets/images/skills/mongodb.png',
@@ -93,6 +107,13 @@ const Skills = () => {
             year={t('duration2')}
             company={t('company2')}
             companyLink="https://www.younner.com"
+            description={t('description2')}
+          />
+          <SkilsItem
+            title={t('occupation3')}
+            year={t('duration3')}
+            company={t('company3')}
+            companyLink="https://www.mestresdaweb.com.br/"
             description={t('description2')}
           />
         </div>
