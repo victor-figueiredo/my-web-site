@@ -52,7 +52,6 @@ const mySkills = [
     name: 'ExpressJS',
     imageUrl: '/assets/images/skills/Expressjs.png',
   },
-  //
   {
     name: 'PHP',
     imageUrl: '/assets/images/skills/PHP-logo.png',
@@ -65,7 +64,6 @@ const mySkills = [
     name: 'Blade',
     imageUrl: '/assets/images/skills/blade-logo.png',
   },
-  //
   {
     name: 'MongoDB',
     imageUrl: '/assets/images/skills/mongodb.png',
@@ -96,13 +94,13 @@ const Skills = () => {
       </h1>
       <div className="mx-auto grid w-[80%] grid-cols-1 items-center gap-[2rem] pt-[4rem] md:grid-cols-1 md:pt-[8rem]">
         <div className="grid grid-cols-1 gap-[2vw] md:grid-cols-2">
-            <SkilsItem
-              title={t('occupation3')}
-              year={t('duration3')}
-              company={t('company3')}
-              companyLink="https://www.mestresdaweb.com.br/"
-              description={t('description2')}
-            />
+          <SkilsItem
+            title={t('occupation3')}
+            year={t('duration3')}
+            company={t('company3')}
+            companyLink="https://www.mestresdaweb.com.br/"
+            description={t('description3')}
+          />
           <SkilsItem
             title={t('occupation2')}
             year={t('duration2')}
