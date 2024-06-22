@@ -45,7 +45,11 @@
     "company2": "at Younner",
     "occupation2": "Frontend Developer",
     "duration2": "2021/08 - 2023/10",
-    "description2": "I developed projects and solutions for various clients, such as credit unions, course platforms, service providers, real estate agents, loyalty systems, car rentals, live systems, chat with socket.io, maps, and others, where I could have the satisfaction of overcoming challenges and evolving as a professional and also as a person."
+    "description2": "I developed projects and solutions for various clients, such as credit unions, course platforms, service providers, real estate agents, loyalty systems, car rentals, live systems, chat with socket.io, maps, and others, where I could have the satisfaction of overcoming challenges and evolving as a professional and also as a person.",
+    "company3": "at Mestres da Web",
+    "duration3": "05/2024 - 06/2024",
+    "occupation3": "Frontend Developer",
+    "description3": "I was hired to develop a website for the company's marketing department and also worked on an internal project aimed at enhancing sales. \n Additionally, I had experience with website tracking, both client-side and server-side, training the use of tools such as Google Tag Manager, Google Analytics 4, Facebook ADS, Google ADS, and Stape.io in applications."
   },
   "Footer": {
     "rights": "Developed by "
