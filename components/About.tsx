@@ -13,7 +13,7 @@ const About = () => {
           <h1 className="mb-[1rem] text-[20px] font-bold uppercase text-[#5B7AC4]">
             {t('about-me')}
           </h1>
-          <h2 className="mb-[3rem] text-[25px] font-bold leading-[2rem] text-white md:text-[35px] md:leading-[3rem] lg:text-[45px]">
+          <h2 className="mb-[3rem] text-[25px] font-bold leading-[2rem] text-white md:text-[35px] md:leading-[3rem] lg:text-[40px]">
             {t('aiming')}
             <span className="text-[#5B7AC4]">{t('purpose')}</span>
           </h2>

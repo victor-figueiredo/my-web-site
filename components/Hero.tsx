@@ -1,5 +1,4 @@
 import React from 'react'
-import Particle from './Particle'
 import TextEffect from './TextEffect'
 import Image from 'next/image'
 import { ArrowDownTrayIcon, PlayCircleIcon } from '@heroicons/react/20/solid'
@@ -17,7 +16,6 @@ const Hero = () => {
       id="home"
       className="mt-[10vh] h-[100vh] bg-[#040404] bg-cover bg-center"
     >
-      {/* <Particle /> */}
       <div className="mx-auto grid h-[100%] w-[80%] grid-cols-1 items-center gap-[3rem] lg:grid-cols-2">
         <div>
           <h1 className="text-[35px] font-bold text-[#F7F6FB] md:text-[50px]">
@@ -25,10 +23,7 @@ const Hero = () => {
           </h1>
           <TextEffect />
           <Link to="about" smooth={true} duration={500}>
-            <p
-              data-aos="zoom-out-right"
-              className="mt-[1.5rem] cursor-pointer text-[18px] text-[#F7F6FB] opacity-30 hover:opacity-80"
-            >
+            <p className="mt-[1.5rem] cursor-pointer text-[18px] text-[#F7F6FB]">
               {t('subtitle')} <br />
               <span className="text-[#5B7AC4] opacity-100 hover:underline">
                 {t('cta')}
